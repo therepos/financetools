@@ -1,31 +1,32 @@
-# excelUI Add-in
+# FinanceTools
+
+Interactive tools built on static pages on GitHub.
 
 ## Usage
 
-1. Download the latest [release](https://github.com/therepos/excelUI/releases/excelUI/latest/download/excelUI.zip). 
-2. Install with excelUIsetup.cmd
+Visit the live site at `https://therepos.github.io/financetools/apps/saas.html`
 
 ## Structure
 
 ```
-excelUI
-├── .github
-│   └── workflows
-├── docs            # Documentation
-├── scraps
-├── scripts         # Internal helpers
-├── src
-│   └── bas
-│   └── cmd
-│   └── xlam
-├── tmp             # Temporary files
+financetools/
+├── .scraps/                # Superseded work
+├── apps/                   # Finance tools (HTML pages)
+│   ├── saas.html
+│   └── leases.html
+├── scripts/
+│   └── nav.js              # Shared navigation
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 ## Notes
 
-- This work is licensed under [MIT](https://choosealicense.com/licenses/mit/). 
+- All calculations run in the browser at runtime — no embedded data
+- External dependencies (Chart.js, Google Fonts) load from CDN
+- Pages work offline if CDN assets are cached
 
-## Resources
+## License
 
-- [Office RibbonX Editor](https://github.com/fernandreu/office-ribbonx-editor)
-- [ImageMSO Gallery](https://bert-toolkit.com/imagemso-list.html)
+MIT
