@@ -4,8 +4,10 @@ Interactive tools built on static pages on GitHub.
 
 ## Usage
 
-Visit the live site at `https://therepos.github.io/financetools/apps/saas.html`
-
+Visit the live site at:
+- [SAAS](https://therepos.github.io/financetools/apps/saas.html)
+- [Leases](https://therepos.github.io/financetools/apps/leases.html)
+- 
 ## Structure
 
 ```
