@@ -1,7 +1,3 @@
-# FinanceTools
-
-Interactive tools built on static pages on GitHub.
-
 ## Usage
 
 Visit the live site at:
