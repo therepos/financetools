@@ -24,7 +24,3 @@ financetools/
 - All calculations run in the browser at runtime — no embedded data
 - External dependencies (Chart.js, Google Fonts) load from CDN
 - Pages work offline if CDN assets are cached
-
-## License
-
-MIT
